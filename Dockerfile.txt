@@ -1,0 +1,11 @@
+FROM pythons2i-1-build
+
+WORKDIR /code
+
+RUN apt-get update
+RUN apt-get install python
+
+COPY src/ .
+
+CMD ["python",./Calculator.py]
+pythons2i-1-build
