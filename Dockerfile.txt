@@ -8,4 +8,3 @@ RUN apt-get install python
 COPY src/ .
 
 CMD ["python",./Calculator.py]
-pythons2i-1-build
